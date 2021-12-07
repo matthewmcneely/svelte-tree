@@ -1,7 +1,7 @@
 <script>
   import { slide } from "svelte/transition";
   export let node;
-  export let index;
+  let index;
 
   let showChildren = true;
 </script>
